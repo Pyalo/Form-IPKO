@@ -1,0 +1,152 @@
+#image{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -40px;
+    right: 20px;
+}
+.section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #D8D8D8;
+    font-size: small;
+    height: 90px;
+    
+}
+.partA{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -25px;
+    right: 20px;
+}
+.partB{    
+    position: relative;
+    top: 0px;
+    right: -20px;
+}
+.partB small{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    text-align: end;
+    position: relative;
+    top: 65px;
+    right: 20px;
+}
+
+.section2{
+    background-color: #2C74B3;
+    border-radius: 3px;
+    color: #F5F5F5;
+    width: 753px;
+    height: 60px;
+}
+.subsection{
+    font-size: x-small;
+    position: relative;
+    top: -35px;
+    left: 40px;
+    width: 460px;
+}
+.icon{
+    position: relative;
+    bottom: -25px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    background-color: #2C74B3;
+}
+.section3{
+    font-size: 12px;
+    position: relative;
+    left: 30px;
+}
+.base{
+   font-size: 8px;
+   color:#D8D8D8;
+   line-height: 1px;
+}
+.section4{
+    display: flex;
+    flex-direction: row;
+    position: relative; 
+    top: 0px;
+    right: 39px;
+    margin-left: 10px;
+}
+.blockA{
+   position: relative; 
+   top: 0px;
+   right: 50px;
+   /* font-size: x-small; */
+}
+.flexarrange{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: x-small;
+}
+.flexarrange p{
+    width:200px;
+    margin: 7px;
+}
+.label{
+    text-align: end;
+    color: gray
+}
+.blockB{
+    position: relative; 
+    top: 0px;
+    right: 120px;
+}
+.but{
+    width:90px ;
+    height:30px ;
+    background-color: white;
+    position: relative;
+    top: -25px;
+    left: 350px;
+    font-size: x-small;
+    color: gray;
+    border: 0;
+    border-radius: 3px;
+
+}
+.form-control{
+    width: 250px;
+}
+#container{
+    margin-left: 30px;
+    width: 750px;
+    height: 70px;
+}
+.disconnect{
+    background-color: white;
+    border: 0;
+    color: blue;
+}
+.connect{
+    border-radius: 5px 5%;
+    width: 50px;
+    height: 20px;
+    background-color: #0002A1;
+    color: white;
+    position: relative;
+    right: -40px;
+    font-size: 8px;
+}
+#bord{
+    border: 2px solid #D8D8D8;
+}
+.btn-container{
+    text-align: end;
+    position: relative;
+    top: 90px;
+}
+#image1{
+    width: 10px;
+    height: 10px;
+}
